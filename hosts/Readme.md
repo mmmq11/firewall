@@ -30,4 +30,7 @@ https://stackoverflow.com/questions/4366533/how-to-remove-the-lines-which-appear
 
 `grep -Fvxf removeThisList FromThisList > result`
 
+##### remove all comments:
+`grep -o '^[^#]*' input.txt > output.txt`
+https://unix.stackexchange.com/questions/157328/how-can-i-remove-all-comments-from-a-file
 

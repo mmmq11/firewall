@@ -4,6 +4,12 @@
 # 0.0.0.0 google.co.uk
 # 0.0.0.0 www.google.co.uk
 
+# This forces google to do safe search
+forcesafesearch.google.com google.com
+forcesafesearch.google.com www.google.com
+forcesafesearch.google.co.uk google.co.uk
+forcesafesearch.google.co.uk www.google.co.uk
+
 0.0.0.0 encrypted-tbn0.gstatic.com # google image search previews
 0.0.0.0 translate.google.co.uk
 0.0.0.0 translate.google.com

@@ -1,5 +1,5 @@
 copy_files:
-	cd /home/elias/Documents/workspace/configs/firewall/e2guardian/hosts
+	#cd /home/elias/Documents/workspace/configs/firewall/e2guardian/hosts
 	
 	# 1. Clean files:
 	sed -e 's|\r||g' -i ./01_search/01_Tor

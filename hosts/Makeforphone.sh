@@ -19,7 +19,7 @@ cat ./02_stevenblack/05_Tumblr >> hosts
 cat ./02_stevenblack/06_Reddit >> hosts
 cat ./02_stevenblack/07_Pinterest >> hosts
 cat ./02_stevenblack/08_DateMeme >> hosts
-cat ./02_stevenblack/BlockOnPhone_Facebook >> hosts
+#cat ./02_stevenblack/BlockOnPhone_Facebook >> hosts
 cat ./03_manuallycollected/BlockOnPhone_APK >> hosts
 cat ./03_manuallycollected/BlockOnPhone_Porn >> hosts
 cat ./03_manuallycollected/01_Secular >> hosts

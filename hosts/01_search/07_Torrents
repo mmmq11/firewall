@@ -1,24 +1,4 @@
 # Torrents:
-0.0.0.0 kickasstorrents.pw
-0.0.0.0 kickasstorrents.ltd
-0.0.0.0 kickasstorrents.ee
-0.0.0.0 kickasstorrents.date
-0.0.0.0 kat.am
-0.0.0.0 kickass.help
-0.0.0.0 kickasstorrent.site
-0.0.0.0 kickasss.to
-0.0.0.0 kickasstorrents.ee
-0.0.0.0 kickasstorrents.to
-0.0.0.0 www.kickasstorrents.pw
-0.0.0.0 www.kickasstorrents.ltd
-0.0.0.0 www.kickasstorrents.ee
-0.0.0.0 www.kickasstorrents.date
-0.0.0.0 www.kat.am
-0.0.0.0 www.kickass.help
-0.0.0.0 www.kickasstorrent.site
-0.0.0.0 www.kickasss.to
-0.0.0.0 www.kickasstorrents.ee
-0.0.0.0 www.kickasstorrents.to
 0.0.0.0 123unblock.space
 0.0.0.0 1337x.to
 0.0.0.0 1337xproxylist.com
@@ -62,6 +42,7 @@
 0.0.0.0 ettv.tv
 0.0.0.0 ettvtorrents.com
 0.0.0.0 eztv.io
+0.0.0.0 eztv.re
 0.0.0.0 filesdownloader.com
 0.0.0.0 freeanimesonline.com
 0.0.0.0 freeproxy.io
@@ -73,10 +54,19 @@
 0.0.0.0 imggur.pictures
 0.0.0.0 imgzong.xyz
 0.0.0.0 ind-unblock.xyz
+0.0.0.0 kat.am
 0.0.0.0 katcr.co
 0.0.0.0 katcr.to
+0.0.0.0 kickass.help
 0.0.0.0 kickass.sx
 0.0.0.0 kickass.to
+0.0.0.0 kickasss.to
+0.0.0.0 kickasstorrent.site
+0.0.0.0 kickasstorrents.date
+0.0.0.0 kickasstorrents.ee
+0.0.0.0 kickasstorrents.ltd
+0.0.0.0 kickasstorrents.pw
+0.0.0.0 kickasstorrents.to
 0.0.0.0 knaben.xyz
 0.0.0.0 lime1.unblocked.lol
 0.0.0.0 lime1.unblocked.ms
@@ -93,6 +83,7 @@
 0.0.0.0 limetorrents.in
 0.0.0.0 limetorrents.info
 0.0.0.0 limetorrents.online
+0.0.0.0 limetorrents.pro
 0.0.0.0 limetorrents.unblockall.org
 0.0.0.0 limetorrents.unblocked.gdn
 0.0.0.0 limetorrents.unblocked.krd
@@ -266,6 +257,7 @@
 0.0.0.0 torrentdownloads.me
 0.0.0.0 torrentfunk.com
 0.0.0.0 torrentgalaxy.org
+0.0.0.0 torrentgalaxy.to
 0.0.0.0 torrents-proxy.com
 0.0.0.0 torrents.io
 0.0.0.0 torrentz2.eu
@@ -336,6 +328,7 @@
 0.0.0.0 www.ettv.tv
 0.0.0.0 www.ettvtorrents.com
 0.0.0.0 www.eztv.io
+0.0.0.0 www.eztv.re
 0.0.0.0 www.filesdownloader.com
 0.0.0.0 www.freeanimesonline.com
 0.0.0.0 www.freeproxy.io
@@ -347,10 +340,19 @@
 0.0.0.0 www.imggur.pictures
 0.0.0.0 www.imgzong.xyz
 0.0.0.0 www.ind-unblock.xyz
+0.0.0.0 www.kat.am
 0.0.0.0 www.katcr.co
 0.0.0.0 www.katcr.to
+0.0.0.0 www.kickass.help
 0.0.0.0 www.kickass.sx
 0.0.0.0 www.kickass.to
+0.0.0.0 www.kickasss.to
+0.0.0.0 www.kickasstorrent.site
+0.0.0.0 www.kickasstorrents.date
+0.0.0.0 www.kickasstorrents.ee
+0.0.0.0 www.kickasstorrents.ltd
+0.0.0.0 www.kickasstorrents.pw
+0.0.0.0 www.kickasstorrents.to
 0.0.0.0 www.knaben.xyz
 0.0.0.0 www.lime1.unblocked.lol
 0.0.0.0 www.lime1.unblocked.ms
@@ -367,6 +369,7 @@
 0.0.0.0 www.limetorrents.in
 0.0.0.0 www.limetorrents.info
 0.0.0.0 www.limetorrents.online
+0.0.0.0 www.limetorrents.pro
 0.0.0.0 www.limetorrents.unblockall.org
 0.0.0.0 www.limetorrents.unblocked.gdn
 0.0.0.0 www.limetorrents.unblocked.krd
@@ -540,6 +543,7 @@
 0.0.0.0 www.torrentdownloads.me
 0.0.0.0 www.torrentfunk.com
 0.0.0.0 www.torrentgalaxy.org
+0.0.0.0 www.torrentgalaxy.to
 0.0.0.0 www.torrents-proxy.com
 0.0.0.0 www.torrents.io
 0.0.0.0 www.torrentz2.eu
@@ -575,6 +579,7 @@
 0.0.0.0 www.yastatic.net
 0.0.0.0 www.yourbittorrent.com
 0.0.0.0 www.yts.am
+0.0.0.0 www.yts.mx
 0.0.0.0 www.zooqle.com
 0.0.0.0 www1.thepiratebay3.to
 0.0.0.0 xn--thepratebay-fcb.com
@@ -584,5 +589,6 @@
 0.0.0.0 yastatic.net
 0.0.0.0 yourbittorrent.com
 0.0.0.0 yts.am
+0.0.0.0 yts.mx
 0.0.0.0 zooqle.com
 

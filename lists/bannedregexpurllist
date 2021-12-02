@@ -1,0 +1,218 @@
+#Banned URLs based on Regular Expressions
+#
+# E.g. 'sex' would block sex.com and middlesex.com etc
+
+#listcategory: "Banned Regular Expression URLs"
+
+#Banned URLs based on Regular Expressions
+
+#These examples should be used with extreme caution 
+# as most regexp url patterns tend to overblock
+# Be as specific as possible as this helps avoid this
+
+######################################################
+# Pornography, Modelling and Adult Sites
+######################################################
+
+
+(?!analyt|analys)(big|cyber|hard|huge|mega|small|super|tiny|bare|anal|oral|sex)+.*(?!tition)(anal|babe|bharath|boob|busen|busty|clit|cum|cunt|dick|girl|hooter|lez|lust|oral|orgy|penis|pupper|rotten|sex|shit|teen|tit)s?
+(?!analyt|analys|tition)(anal|babe|bharath|boob|busen|busty|clit|cum|cunt|dick|girl|hooter|lez|lust|oral|orgy|penis|pupper|rotten|sex|shit|teen|tit)+.*(?!sexp)(big|cyber|hard|huge|mega|small|super|tiny|bare|anal|oral|sex)+
+(adultsight|adultsite|adultsonly|adultweb|deepthroat|blowj|footj|handj|bondage)
+(centerfold|cumshot|cyberlust|cybercore|hardcore|masturb|fingering|fapping|bdsm)
+(dildo|frottag|cunniling|fellatio|ejaculat|teabag|bukkak|gokkun|gangb|snowballing|gloryh)
+(bangbros|pussylip|playmate|pornstar|sexdream|showgirl|softcore|striptease|fisting)
+(penetrat|threesome|femdom|vagina|footfetish|shemale|titty|titties)
+(braless|nipple|lesbi|squirting|shemale|femdom|milf|jizz|hentai|horny)
+(masseur|mistress|naughty|nasty|prostit|tamil|upskirt|voyeur)
+(stripp|tits|rape|filth|facial|boobs|asshole|hooker)
+(doggystyle|bbw|cuckold|livesex|phimsex|topless)
+(topp?les|smutpump|fetish|porn|pussy|fuck|xxx|clitoris|vulva|zzz|sodom|interraci|breast)
+(slut|sleazy)
+(incest|obscene|pedophil|pedofil|fucked|buttfuck|hottie|masturbat)
+(leak|onlyfan|rimming|strapon)
+(darkweb)
+(fapp|boob|beeg|phim|freexx|creampie|brazz|indulge)
+(pussy|teens|lewd|nsfw|whore|ebony|tirtir|stepmom|orgasm|spank|amateur|sxy)
+(сиськи|Порно|порно|секс|эротика|Эротика|эроти|гифки|грудь)
+(naturism|naturist|nude|nudist|nudism|nudity|naked|nekkid|nakt|naakt|erotic|brunette|fantasy)
+(dating|flirt|condoom|mujer|latino|latina|vibrator)
+(filesor\.com|onemedia\.to|pixhost\.to|appboxes\.co)
+(dood\.video|puba\.com|pbembed\.me|x5o\.org)
+(muchassd|mxdcontent|pvvstream|privatehost|trafficdeposit|videosection|redtube)
+(xvideo|xhamst|hamster|xnxx|stormedia|eulue|phvcdn|cfeucdn|rdtcdn|phncdn|ahcdn|cdnka|xcdnvids|cdnprn|gammacdn|cdntrex|ackcdn)
+(vidscdn|ahacdn|videocdn|amhcdn|bigcdn|ebacdn|hwcdn|hboav|kvscdn|ruscdn|vidscdn|videocdn|videosrc|cdnvid|mygol) 
+(pix-cdn|xz-cdn|cdn-d|cdngr|b-cdn|sb-cd|ucdn|xhcdn|xtube|cyberdrop|artvideo|aliyunsysfiles|cdnxsalty9|cdnde|p0sembed)
+\.(love|wtf|monster|lgbt|nsfw)
+(double[-+_. ]{0,1}anal)
+(cum[-+_. ]{0,1}on[-+_. ]{0,1}tits)
+(cum[-+_. ]{0,1}on[-+_. ]{0,1}face)
+(cum[-+_. ]{0,1}in[-+_. ]{0,1}mouth)
+(cum[-+_. ]{0,1}on[-+_. ]{0,1}ass)
+(cum[-+_. ]{0,1}in[-+_. ]{0,1}ass)
+(cum[-+_. ]{0,1}shot)
+(riding[-+_. ]{0,1}cock)
+(ride[-+_. ]{0,1}cock)
+(cock[-+_. ]{0,1}ride)
+(cock[-+_. ]{0,1}riding)
+(butt[-+_. ]{0,1}fuck)
+(ass[-+_. ]{0,1}fuck)
+(blow[-+_. ]{0,1}job)
+(foot[-+_. ]{0,1}job)
+(hand[-+_. ]{0,1}job)
+(deep[-+_. ]{0,1}throat)
+(gang[-+_. ]{0,1}bang)
+(sexual[-+_. ]{0,1}intercourse)
+(sexual[-+_. ]{0,1}stimulation)
+(sexual[-+_. ]{0,1}arousal)
+(she[-+_. ]{0,1}male)
+(glory[-+_. ]{0,1}hol)
+(step[-+_. ]{0,1}mom)
+(step[-+_. ]{0,1}mother)
+(inter[-+_. ]{0,1}racial)
+(ass[-+_. ]{0,1}hole)
+(anal[-+_. ]{0,1}seks)
+(anal[-+_. ]{0,1}sex)
+(seks[-+_. ]{0,1}toy)
+(slave[-+_. ]{0,1}girl)
+(public[-+_. ]{0,1}agent)
+(public[-+_. ]{0,1}sex)
+(free[-+_. ]{0,1}video)
+(free[-+_. ]{0,1}foto)
+(free[-+_. ]{0,1}photo)
+(big|huge|white|asian)[-+_. ]{0,1}(ass|tits|boob|mom|pussy|butt)
+(sex|sexy|hot|fuck|adult)[-+_. ]{0,1}(photo|pics|pict|toy|girl|babe|woman|wife|model|teen|ass|tits|boob|mom|pussy|butt|movie|film|cam|vid)
+(asian|phim|jav|av|adult)[-+_. ]{0,1}(sex|tits|bang|tube|couple|fantasy|juicy|erotic)
+(erotic|juicy|fantasy)[-+_. ]{0,1}(asian)
+(russian|dutch|swedish|czech|asian)+.*(girls)
+(love)+.*(girl)
+fap.{0,8}\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+.{0,8}pleasure.{0,8}\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+[a-z0-9\-]{0,8}gore[a-z0-9\-]{0,8}\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone|io)
+(?!mentation)(male|m[ae]n|boy|girl|beaut|agen[ct]|glam)+.*(model|talent)
+(sex|fuck|boob|cunt|fetish|tits|anal|hooter|asses|shemale|submission|porn|busty|knockers|slut|nude|naked|pussy|girls|babes|bikini|model)+.*\.(jpg|png|JPG|PNG|wmv|webm|mpg|mpeg|gif|GIF|mov|mp4|MP4)
+(porn(?!/hosts\b)|p0rn|girl|girls|woman|women|(?<!\balfadytv)lovers?|xgirl) 
+((?<!\bstory_attachment_style)\.video(?!lecture|lan|_inline|_details|s\.total)|(?<!\bfb)\.watch) 
+([0-9]+.*\..*(?<!\bpressable|rack)cdn)\.(me|com)
+((?<!\bma)xcdn(?!\.bootstrapcdn)) 
+(cdn[0-9]+\.)([a-z]+)(cdn|vids)\.(com|net|me|ws|tv|top|xyz)
+([0-9]+\.)([a-z]+)(\-?)(vids)\.(com|net|me|ws|tv|top|xyz)
+(video)s?[0-9]?\.([a-z0-9-]{1,15})\.(com|net|me|ws|tv|top|xyz|be|cn|ru)
+(cdn[0-9]{2,2})\.(com|net|org|me) 
+(cdnvideo[0-9]{2,2})\.(com|net|org|me) 
+(vids[0-9]{2,2})\.(com|net|org|me) 
+(cdn-[a-z][0-9])\.(com|net|org|me) 
+(cdn[0-9]x)\.(com|net|org|me) 
+vid[a-z]{0,5}-?[0-9]{0,5}\.(?!files\.wordpress|data|data.clip.user|data.clip|total).{1,15}\.(net|org|me|mobi|ru|co|pro$|cn|vip|tv|asia|cc|in)
+(c\.)?xn----[a-z0-9\-]{5,20}\.(net|org|me|mobi|ru|co|pro|cn|vip|tv|asia|cc|in)
+vcdn[0-9]{0,2}\.[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+cdn[0-9]{1,2}\.(?!wowza)[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone) 
+^[0-9]{1,2}\.[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+cdni\.[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone) 
+s[0-9]{1,2}\.[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone) 
+^s\.[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone) 
+s-[0-9]{1,2}\.[a-z0-9\-]{1,15}\.(mobi|org|asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone) 
+([0-9]{4,})+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+([a-z0-9\-]{0,9}xgif[a-z0-9\-]{0,9})+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+(?!180post\.com)([0-9]{3,}[a-z]+)+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+(?!regex101\.com|sat7\.com|alro7\.net|ask4\.com|findipv6\.com|apologetics315\.com|getconnect2\.com|mawdoo3\.com|mam9\.com|office365\.com|acts17\.net|mauritania13\.com|france24\.com|gvt1\.com|9to5linux\.com)\b([a-z]+[0-9]+)+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu/|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us/|video|watch|xyz|zone)
+(?!ci2cv\.net|uc3m\.es|qgjpdebgroop4m\.net|yasou3ouna\.com|w3schools\.com|w3docs\.com|sat7arabic\.com|l1vetv\.com|difa3iat\.com|massi7e\.com|k21academy\.com|ask4internet\.com|d3js\.com|9to5linux\.com)\b([a-z]+[0-9]+[a-z]+)+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+([0-9]+[a-z]+[0-9]+)+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr$|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+(?!10ofthose\.com|180post\.com|k21academy\.com)\b([0-9]{2,}[a-z]+)+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone)
+(?!10ofthose\.com|9ku\.com|4rgos\.it|180post\.com|9to5linux\.com)\b([0-9]+[a-z]+)+\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu/|fr|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us/|video|watch|xyz|zone)
+stream\.[a-z0-9\-]{4,16}\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr$|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone|io)
+stream-[0-9]\.[a-z0-9\-]{4,16}\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr$|fun|icu|info|it|life|me|monster|name|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone|io)
+stream[0-9][a-z]\.[a-z0-9\-]{4,16}\.(asia|be|best|biz|ca|cam|cc|city|club|cn|com|es|eu|fr$|fun|icu|info|it|life|me|monster|name|nl|net|pro|pw|red|ru|top|tube|tv|uk|us|video|watch|xyz|zone|io)
+facebook.com/.*(selfy|selfie|hott|beaut|pretty|fashion)
+google.com/search.*tbm=(isch|vid|nws|shop)
+safe.duckduckgo.com/?q=.*&iax=images
+safe.duckduckgo.com/.*iax=(images|videos|shopping)
+safe.duckduckgo.com/.*iar=news
+safe.duckduckgo.com/.*ia=(images|videos|shopping|meaning|stock|news)
+colab.research.google.com/tun/m/.*/files/content
+
+
+######################################################
+# Search Engine and Related
+######################################################
+
+#Block unfiltered options on various search engines
+#(^|[\?+=&/])(.*\.google\..*/.*\?.*safe=off)([\?+=&/]|$)
+#(^|[\?+=&/])(.*\.alltheweb.com/customize\?.*copt_offensive=off)([\?+=&/]|$)
+
+#Block images and video on altavista, alltheweb, yahoo etc - as they are anonomised
+#(yahoo.com\/image\/)
+#(yimg.com\/image\/)
+#(altavista.com\/image\/)
+#(altavista.com\/video\/)
+#(picsearch.com\/is)
+
+#Block images and video on google
+#(images.google)+.*(\.jpg|\.wmv|\.mpg|\.mpeg|\.gif|\.mov) 
+#(google.com\/video) #block all video
+#(google.com\/ThumbnailServer) #block video thumbnails
+#(google.com\/videoplay) #block only playing the video
+
+
+######################################################
+# Proxy Sites
+######################################################
+
+#Block Cgiproxy, Poxy, PHProxy and other Web-based proxies
+#(cecid.php|nph-webpr|nph-pro|/dmirror|cgiproxy|phpwebproxy|__proxy_url|proxy.php)
+
+#Block websites containing proxy lists
+#(anonymizer|proxify|megaproxy)
+
+#AGRESSIVE blocking of all URLs containing proxy - WARNING - this WILL overblock!!
+#(proxy)
+
+
+######################################################
+# Gambling - supplied by David Burkholder
+######################################################
+#(casino|bet(ting|s)|lott(ery|o)|gam(e[rs]|ing|bl(e|ing))|sweepstake|poker)
+
+
+######################################################
+# Sport - supplied by David Burkholder
+######################################################
+#(bowling|badminton|box(e[dr]|ing)|skat(e[rs]|ing)|hockey|soccer|nascar|wrest|rugby|tennis|sports|cheerlead|rodeo|cricket|badminton|stadium|derby)
+#((paint|volley|bas(e|ket)|foot|quet)ball|/players[/\.]?|(carn|fest)ival)
+
+#Racing - supplied by David Burkholder
+#(speed(st|wa|y)|corvette|rac[eiy]|wrest|harley|motorcycle|nascar)
+
+
+######################################################
+# News sites - supplied by David Burkholder
+######################################################
+#(news(watch|pap|cast)|herald|sentinel|courier|gazet|tribune|chronicle|daily|ning)news)
+
+
+######################################################
+# Dating Sites - supplied by David Burkholder
+######################################################
+#(meet|hook|mailord|latin|(asi|mexic|dominic|russi|kore|colombi|balk)an|brazil|filip|french|chinese|ukrain|thai|tour|foreign|date)+.*(dar?[lt]ing|(sing|coup)le|m[ae]n|girl|boy|guy|mat(e|ing)|l[ou]ve?|partner|meet)
+#(marr(y|i[ae])|roman(ce|tic)|fiance|bachelo|dating|affair|personals)
+
+
+######################################################
+# Miscellaneous - Productivity etc.
+######################################################
+
+#Use this to block web counters:
+#(adlog.php|cnt.cgi|count.cgi|count.dat|count.jsp|count.pl|count.php|counter.cgi|counter.js|counter.pl|countlink.cgi|fpcount.exe|logitpro.cgi|rcounter.dll|track.pl|w_counter.js)
+#Contributed by proxy@barendse.to
+
+#Free stuff - supplied by David Burkholder
+#(free|phone|mobile)+.*(love|music|movie|dvd|video|stuff|site|arcade|wallpaper|mp3)
+#((ring|real)tone)
+
+#Music - supplied by David Burkholder
+#(rock|pop|jazz|rap|punk)+.*(cult|roll|geek|drum|music|history|band)
+
+# WARNING: This is part of the URL for the e2guardian.org sample virus archive.
+# You probably don't want to go there unintentionally.
+(Variants/AVTest)
+
+

@@ -4,26 +4,12 @@
 
 
 ########################### elias ##########################
-# Don't put any comments after a line
-# These functions are reimplemented from [common.story]. See V5_Storyboard.pdf
-# For blanket block, see [examplef1.story]
 
-
-###########################
-# greylist check (greylists no longer surpass bannedurllist; but it does not work on exception lists):
-
-#  returns true on match
 function(greycheck)
 if(urlin, banned) return setblock
 if(sitein, banned) return setblock
 if(urlin, grey) return setgrey
 
-
-#########################################
-# same as above but on exception lists (banned lists override exception lists)
-
-# Exception check
-#  returns true on match (elias: added 2nd & rd lines)
 function(exceptioncheck)
 if(urlin, banned) return setblock
 if(sitein, banned) return setblock
@@ -34,8 +20,6 @@ if(useragentin, exceptionuseragent) return setexception
 ifnot(urlin,embededreferer) return false
 if(embeddedin,refererexception) return setexception
 
-# SSL Exception check
-#  returns true on match (elias: added 2nd & rd lines)
 function(sslexceptioncheck)
 if(urlin, banned) return setblock
 if(sitein, banned) return setblock

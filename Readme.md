@@ -1,3 +1,5 @@
+![SatanLovesP](SatanLovesP.png "SatanLovesP")
+
 # A very effective Catholic firewall filter to block pornography
 *«If your right eye causes you to stumble, gouge it out and throw it away. It is better for you to lose one part of your body than for your whole body to be thrown into hell. And if your right hand causes you to stumble, cut it off and throw it away. It is better for you to lose one part of your body than for your whole body to go into hell.» (Matthew 5:29-30)*
 
@@ -5,12 +7,12 @@
 
 *«Submit yourselves, then, to God. Resist the devil, and he will flee from you.» (James 4:7)*
 
-### About:
+### About [v. 1.2]:
 - This is the most effective method of blocking pornography that I have ever achieved (word origin: porneia πορνεία, meaning "prostitution", _britannica_ definition).
 - The best way not to commit evil, is to avoid it, to stay far from it, and to make it difficult to reach.
 - The filter blocks everything except a predefined whitelist of _domains_. It forces all http/https traffic to pass through a proxy, which acts as the filter. It can be used to protect your family, or to rid yourself from addiction.
 
-## How to setup:
+## How to setup filter:
 *1. Setup firewall (iptables rules)*
 
 `./script_activate_firewall.sh`
@@ -21,30 +23,32 @@
 
 *3. Activate hosts blocking*
 
-`./hosts && make`
+`./hosts && sudo make`
 
-*4. Copy all e2g files*
+*4. Build e2guardian from source according to the instructions in the section below*
 
-`e2copyNEVER`
+*5. Copy all e2g files*
+
+`sudo make # or: e2copyNEVER`
+
+*6. Set all of your applications to use proxy, and add certificate to firefox*
+
+`127.0.0.1:8080`
 
 ## e2guardian notes:
-- forked from https://github.com/e2guardian/e2guardian
+- Forked from https://github.com/e2guardian/e2guardian
 - The filter is preconfigured to be in ` walled garden ` mode.
-- includes regular expression blocking.
-- First run [activate_firewall.sh] to force e2guardian. Then you need to set all of your applications (e.g. browser) to proxy 127.0.0.1:8080)
-- Then build it according to the instructions below. Instructions for Archlinux.
-- Lists are not included. You have to build them yourself.
-- Any questions ask me.
+- Powerful regular expression blocking, especially the file [bannedregexpurllist]
+- Please help me improve this filter so that we can protect the children.
 
 #### Articles:
 https://fightthenewdrug.org/why-porn-can-be-difficult-to-quit/
 https://www.thecatholicthing.org/2021/11/30/pornography-and-the-castration-of-young-men/
 https://www.thecatholicthing.org/2018/06/25/satan-loves-porn/
 
-#### Source:
-https://github.com/e2guardian/e2guardian
+## Installation of e2guardian:
 
-#### 1. Build:
+#### 1. Build (on Archlinux & ubuntu):
 `./autogen.sh`
 
 `./configure --help`
@@ -64,21 +68,25 @@ https://github.com/e2guardian/e2guardian
 #### 3. create new user:
 `sudo useradd -r -s /usr/bin/nologin e2guardian # create user`
 
+on ubuntu: `sudo useradd -r -s /usr/bin/bash e2guardian`
+
 `sudo chown -R nobody:nobody /usr/local/var/log/e2guardian/ # sudo e2guardian won't run otherwise (must be root). try /var/log/e2guardian if the other path does not work.`
+
+on ubuntu: `sudo chown -R nobody. /usr/local/var/log/e2guardian/`
 
 `sudo e2guardian`
 
 `sudo e2guardian -q`
 
 **IMPORTANT:** ALL config files must not have any CRLF characters.
-If you have error with config files when running [sudo systemctl status e2guardian], it is because of CRLF chars; replace them with LF chars using: [sed -e $'s|\r||g' -i ./e2guardian.conf] (see git commands file)
+If you have error with config files when running `sudo systemctl status e2guardian`, it is because of CRLF chars; replace them with LF chars using: `sed -e $'s|\r||g' -i ./e2guardian.conf`
+
+`sudo sed -e $'s|\r||g' -i /usr/local/var/log/e2guardian/access.log`
 
 #### 4. enable service:
-- If the file does not exist, jump to [sudo systemctl enable e2guardian]
-
 `sudo cp /usr/local/share/e2guardian/scripts/e2guardian.service /usr/lib/systemd/system/e2guardian.service`
 
-- This line does not work:
+- This line might be unnecessary:
 
 `sudo vim /usr/lib/systemd/system/e2guardian.service # add under [Service]: User=e2guardian \ Group=e2guardian`
 
@@ -115,7 +123,7 @@ If you have error with config files when running [sudo systemctl status e2guardi
 
 - **note:** changing [transparenthttpsport] to 8080, produces an error. so keep it 8443
 
-- Make copy of certificate (to add to browser):
+- Make copy of certificate (to add to browser under 'Authorities'):
 `cp /usr/local/etc/e2guardian/ssl/my_rootCA.crt ./conf/my_rootCA.crt`
 
 `sudo systemctl restart e2guardian`
@@ -145,25 +153,6 @@ https://help.ubuntu.com/community/DansGuardian
 
 `sudo update-ca-trust`
 
-- see:
-https://bbs.archlinux.org/viewtopic.php?id=256499
-
-#### notes: 
-- blocking 3 letter words is dangerous; as it breaks youtube silently
-- shortage: I want to allow a domain, but blacklist a url within that domain (only in a whitelisted mode. whereas in normal mode, I can block google search). (see TODO)
-- advantage over squid: SSL url regex replacement.
-- An example of grey list use is when in Blanket Block (whitelist) mode and you want to allow some sites but still filter as normal on their content
-
-#### 9. enable the whitelisted mode here:
-`sudo vim /usr/local/etc/e2guardian/examplef1.story`
-
-#### help resources:
-- https://serverfault.com/questions/1020775/e2guardian-block-url-in-whitelisted-domain
-- https://askubuntu.com/questions/1248770/e2guardian-block-url-in-whitelisted-domain
-- https://groups.google.com/forum/#!topic/e2guardian/DU6FVi97ztE
-- https://github.com/e2guardian/e2guardian/issues/603
-- https://github.com/e2guardian/e2guardian/issues/604
-- https://www.youtube.com/watch?v=jPqjEgF49Uo
-- https://github.com/awesomeWM/awesome/issues/3113
-- https://github.com/awesomeWM/awesome/issues/3112
+## Help:
+- Please ask me I will help you, God willing.
 
